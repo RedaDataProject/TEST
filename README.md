@@ -4,7 +4,7 @@ This repository contains a complete QA testing approach for the [Swag Labs](http
 
 ---
 
-## ** Project Description**
+##  Project Description
 
 **Project Name:** Swag Labs QA Testing  
 **Target Application:** [https://www.saucedemo.com/](https://www.saucedemo.com/)  
@@ -17,7 +17,7 @@ This repository contains a complete QA testing approach for the [Swag Labs](http
 
 ---
 
-## ** Scope of Testing**
+##  Scope of Testing
 
 This QA process covers:  
 - Core user flows: login, product selection, cart, checkout  
@@ -27,7 +27,7 @@ This QA process covers:
 
 ---
 
-## ** Testing Methods**
+##  Testing Methods
 
 - Manual test cases following QA best practices  
 - Automated test scripts developed using Selenium  
@@ -36,7 +36,7 @@ This QA process covers:
 
 ---
 
-## ** Key Findings**
+##  Key Findings
 
 - **Navigation Bug:** Clicking on the Swag Labs header doesn't redirect users.  
 - **Sidebar Bugs:** "Reset App State" and logout confirmation are malfunctioning.  
@@ -45,7 +45,7 @@ This QA process covers:
 
 ---
 
-## ** Recommendations**
+##  Recommendations
 
 1. **Fix Critical Functional Bugs** in navigation and checkout flows  
 2. **Improve Error Messages** during key actions like cart/checkout/logout  
@@ -55,7 +55,7 @@ This QA process covers:
 
 ---
 
-## **Files Included**
+## Files Included
 
 - `SWAGsystem_Anushiga.xlsx`: Manual test cases, execution results, and bug summaries  
 - `Automated test script_Anushiga.docx`: Selenium automation script + setup instructions  
@@ -63,7 +63,7 @@ This QA process covers:
 
 ---
 
-## **Example Automated Script**
+## Example Automated Script
 
 ```python
 from selenium import webdriver
